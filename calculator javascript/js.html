@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="js1.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+
+<body>
+    <header>JavaScript Calculator</header><br>
+    <input onmouseleave="store()" placeholder="Enter number Here" type="number" id="in1" style="margin-left:30%;">
+    <input onmouseleave="store()" placeholder="Enter number Here" type="number" id="in2"><br>
+    <div id="buttons">
+        <button class="btn" onclick="addi()">sum</button>
+        <button class="btn" onclick="divi()">Div</button>
+        <button class="btn" onclick="multi()">Mul</button>
+        <button class="btn" onclick="subtr()">Sub</button>
+    </div>
+    <div class="output">
+        <p id="expre"></p>
+        <p id="result" style=" margin-left:2%"></p>
+    </div>
+    <script src="js1.js"></script>
+</body>
+
+</html>

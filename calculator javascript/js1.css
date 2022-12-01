@@ -1,0 +1,44 @@
+.btn {
+    width: 40em;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 4em
+}
+
+header {
+    margin-left: 25%;
+    color: darkslategrey;
+    font-weight: bold;
+    font-size: 4em
+}
+
+input {
+    padding: 2em;
+}
+
+#buttons {
+    margin: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-flex;
+    background: grey;
+    width: 70%;
+    padding: 2em
+}
+
+.output {
+    padding-left: 10%;
+    padding-bottom: 5%;
+    color: white;
+    display: flex;
+    height: 5em;
+    width: 40%;
+    background-color: darkslategrey;
+    border: 2px solid black;
+    margin-left: 22%;
+}
+
+.output p {
+    font-size: 30px;
+    margin-left: 20%
+}
